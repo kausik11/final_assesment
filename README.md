@@ -32,4 +32,7 @@ calendar-app/
 └── README.md              # Project documentation
 
 ### screenshot
-![calendar-app]()
+![calendar-app](https://github.com/kausik11/final_assesment/blob/main/public/Screenshot%202025-01-11%20013225.png)
+![calendar-app](https://github.com/kausik11/final_assesment/blob/main/public/Screenshot%202025-01-11%20013253.png)
+![calendar-app](https://github.com/kausik11/final_assesment/blob/main/public/Screenshot%202025-01-11%20013436.png)
+![calendar-app](https://github.com/kausik11/final_assesment/blob/main/public/Screenshot%202025-01-11%20013507.png)
