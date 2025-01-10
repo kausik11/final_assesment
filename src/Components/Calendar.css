@@ -1,4 +1,4 @@
-/* 🌟 General Calendar Styling */
+
 .calendar-container {
     max-width: 1200px;
     margin: auto;
@@ -20,7 +20,7 @@ h2 {
     font-weight: 600;
 }
 
-/* FullCalendar Styling */
+
 .fc {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
@@ -77,7 +77,7 @@ h2 {
     color: #ecf0f1;
 }
 
-/* Event Content Styling */
+
 .fc-event .fc-event-main {
     color: white;
 }
@@ -87,7 +87,7 @@ h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Week and Day Views */
+
 .fc-daygrid-day {
     background-color: #f7fafc;
     border: 1px solid #e2e8f0;
@@ -105,7 +105,7 @@ h2 {
     border: 1px solid #3788d8;
 }
 
-/* Modal Popup Enhancements */
+
 .modal {
     background: #ffffff;
     padding: 20px;
@@ -127,7 +127,7 @@ h2 {
     color: #34495e;
 }
 
-/* Dark Overlay */
+
 .overlay {
     position: fixed;
     top: 0;
@@ -140,7 +140,7 @@ h2 {
 }
 
 
- /* 🎨 Compact Event Form */
+
  .event-form {
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ h2 {
     padding: 10px;
   }
   
-  /* Smaller Input Fields */
+  
   .event-form input,
   .event-form button,
   .event-form label {
@@ -158,7 +158,7 @@ h2 {
     border: 1px solid #ccc;
   }
   
-  /* Labels */
+
   .event-form label {
     font-weight: bold;
     text-align: left;
@@ -166,7 +166,7 @@ h2 {
     font-size: 13px;
   }
   
-  /* 🎨 Smaller Color Picker */
+ 
   .event-form input[type="color"] {
     height: 30px;
     width: 100%;
@@ -174,7 +174,7 @@ h2 {
     border: none;
   }
   
-  /* 🎨 Compact Buttons */
+
   .event-form button {
     background: #3788d8;
     color: white;
@@ -190,7 +190,7 @@ h2 {
     background: #2a6fb0;
   }
   
-  /* 🚀 Smaller Close Button */
+ 
   .close-btn {
     background: red;
     color: white;
@@ -202,7 +202,7 @@ h2 {
     background: darkred;
   }
   
-  /* 🖼️ File Input */
+
   .event-form input[type="file"] {
     border: none;
     padding: 5px;
@@ -224,7 +224,7 @@ h2 {
   }
 
 
-  /* Event Content Styling */
+  
 .event-content {
     display: flex;
     align-items: center;
@@ -232,7 +232,7 @@ h2 {
     transition: transform 0.3s ease-in-out;
   }
   
-  /* Event Image Hover Effect */
+ 
   .event-image {
     width: 20px;
     height: 20px;
@@ -240,14 +240,14 @@ h2 {
     transition: transform 0.3s ease-in-out; /* Smooth transition for image */
   }
   
-  /* Hover Effect on Event */
+
   .fc-event:hover .event-image {
-    transform: scale(10); /* Enlarge the image when hovering over the event */
+    transform: scale(10); 
     border-radius: 2px;
   }
 
 
-  /* Light Mode */
+  
 .light {
     background-color: #ffffff;
     color: #333;
@@ -263,10 +263,10 @@ h2 {
   }
 
   .light .fc-daygrid-day-number {
-    color: #333; /* Ensure date numbers are visible in light mode */
+    color: #333; 
   }
   
-  /* Dark Mode */
+  
   .dark {
     background-color: #333;
     color: #f5f5f5;
@@ -282,16 +282,16 @@ h2 {
   }
   
   .dark .fc-daygrid-day-number {
-    color: #f5f5f5; /* Ensure date numbers are visible in dark mode */
+    color: #f5f5f5; 
   }
 
-  /* Event Styles for both modes */
+  
   .fc-event {
     background-color: #3788d8;
     color: white;
   }
   
-  /* Button for theme toggle */
+ 
   .theme-toggle {
     background-color: #3788d8;
     color: white;
@@ -303,7 +303,7 @@ h2 {
     margin: 8px 0px;
   }
   
-  /* Hover effect on button */
+
   .theme-toggle:hover {
     background-color: #316b9d;
   }
