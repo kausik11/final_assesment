@@ -1,0 +1,340 @@
+/* 🌟 General Calendar Styling */
+.calendar-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('https://www.sltrib.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fsltrib%2FW4MIEOALEZFIFMY6Y5K2CLSEUA.JPG?auth=effa810c4b65e1a70b25ae6e7db1f8d7a227d181068289df755924c29e31753f&width=1200');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial, sans-serif';
+    color: #34495e;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* FullCalendar Styling */
+.fc {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    font-family: 'Arial, sans-serif';
+    color: #34495e;
+}
+
+.fc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.fc-toolbar h2 {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.fc-button {
+    background-color: rgba(55, 136, 216, 0.8); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    font-family: 'Arial, sans-serif';
+}
+
+.fc-button:hover {
+    background-color: #2a6fb0;
+}
+
+.fc-button-primary {
+    background-color: #4caf50;
+    color: white;
+}
+
+.fc-button-primary:hover {
+    background-color: #45a049;
+}
+
+.fc-event {
+    border: none;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial, sans-serif';
+    color: #ecf0f1;
+}
+
+/* Event Content Styling */
+.fc-event .fc-event-main {
+    color: white;
+}
+
+.fc-event:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Week and Day Views */
+.fc-daygrid-day {
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    transition: background-color 0.3s;
+    font-family: 'Arial, sans-serif';
+    color: #34495e;
+}
+
+.fc-daygrid-day:hover {
+    background-color: #edf2f7;
+}
+
+.fc-day-today {
+    background-color: rgba(56, 136, 216, 0.1);
+    border: 1px solid #3788d8;
+}
+
+/* Modal Popup Enhancements */
+.modal {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1001;
+    animation: fadeIn 0.3s ease-in-out;
+    font-family: 'Arial, sans-serif';
+    color: #34495e;
+}
+
+/* Dark Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+
+ /* 🎨 Compact Event Form */
+ .event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  /* Smaller Input Fields */
+  .event-form input,
+  .event-form button,
+  .event-form label {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Labels */
+  .event-form label {
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    font-size: 13px;
+  }
+  
+  /* 🎨 Smaller Color Picker */
+  .event-form input[type="color"] {
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+  }
+  
+  /* 🎨 Compact Buttons */
+  .event-form button {
+    background: #3788d8;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .event-form button:hover {
+    background: #2a6fb0;
+  }
+  
+  /* 🚀 Smaller Close Button */
+  .close-btn {
+    background: red;
+    color: white;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .close-btn:hover {
+    background: darkred;
+  }
+  
+  /* 🖼️ File Input */
+  .event-form input[type="file"] {
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .delete-btn {
+    background: darkred;
+    color: white;
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background: red;
+  }
+
+
+  /* Event Content Styling */
+.event-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Event Image Hover Effect */
+  .event-image {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for image */
+  }
+  
+  /* Hover Effect on Event */
+  .fc-event:hover .event-image {
+    transform: scale(10); /* Enlarge the image when hovering over the event */
+    border-radius: 2px;
+  }
+
+
+  /* Light Mode */
+.light {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .light .fc-toolbar {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .light .fc-daygrid-day {
+    background-color: #f9f9f9;
+  }
+
+  .light .fc-daygrid-day-number {
+    color: #333; /* Ensure date numbers are visible in light mode */
+  }
+  
+  /* Dark Mode */
+  .dark {
+    background-color: #333;
+    color: #f5f5f5;
+  }
+  
+  .dark .fc-toolbar {
+    background-color: #444;
+    color: #f5f5f5;
+  }
+  
+  .dark .fc-daygrid-day {
+    background-color: #555;
+  }
+  
+  .dark .fc-daygrid-day-number {
+    color: #f5f5f5; /* Ensure date numbers are visible in dark mode */
+  }
+
+  /* Event Styles for both modes */
+  .fc-event {
+    background-color: #3788d8;
+    color: white;
+  }
+  
+  /* Button for theme toggle */
+  .theme-toggle {
+    background-color: #3788d8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 8px 0px;
+  }
+  
+  /* Hover effect on button */
+  .theme-toggle:hover {
+    background-color: #316b9d;
+  }
+
+
+/* Footer Styling */
+.footer {
+    background-color: #2a4365;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: 'Arial, sans-serif';
+}
+
+.footer p {
+    margin: 0;
+    font-size: 13px;
+    color: #ecf0f1;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -55%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
